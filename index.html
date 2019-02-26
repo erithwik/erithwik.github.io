@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Personal Website
+	</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+	<!-- the intro -->
+	<nav class="navbar sticky-top navbar-inverse bolder-font">
+		<button class="navbar-button" href="#" data-page="intro">&#11041; RICKY</button>
+		<button class="navbar-button" href="#about_me" data-page="about_me">&#11041; ABOUT</button>
+		<button class="navbar-button" href="#projects" data-page="projects">&#11041; PROJECTS</button>
+		<button class="navbar-button" href="#contact" data-page="contact">&#11041; CONTACT</button>
+	</nav>
+
+	<div id="intro" class="text-center">
+		<img src="l-copy.jpg" style="border-radius: 50%; border: 10px solid var(--gray-background); box-shadow: var(--shadow-value)">
+		<br>
+		<br>
+		<br>
+		<h1 class="bold-font">Hi! I'm Ricky</h1>
+		<br>
+		<h2 class="regular-font">I am an EECS student at UC Berkeley</h2>
+		<hr style="margin-left: 70vh; margin-right: 70vh; margin-top: 5vh;">
+		<br>
+	</div>
+
+	<!-- About me section -->
+	<div id="about_me" class="about-me">
+		<h6 class="about-me-header bold-font">
+			My full name is
+		</h6>
+		<h1 class="about-me-header-main bolder-font">
+			Rithwik Ediga Lakhamsani
+		</h1>
+		<p class="about-me-body regular-font">
+			but you can call me Ricky for short. I was born in India and I moved to the United States when I was five years old. I finished high school in America and now am working on my undergraduate degree at UC Berkeley studying Electrical Engineering and Computer Science. I am an avid learner and am currently focused on learning more about Machine Learning, the dynamics and functionality of Blockchain, as well as the potential intersection of these two fields. Here are a few things I've made:
+		</p>
+	</div>
+	<br>
+	<br>
+
+	<!-- the cards -->
+	<div id="projects" class="cards container">
+		<div class="row text-center" data-aos="zoom-in-up">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+				<div onclick="location.href='https://github.com/erithwik/meme_machine'" class="text-center card text-white first-card" data-tilt data-tilt-reverse="true" data-tilt-glare="true" data-tilt-maxglare=".2" data-tilt-scale="1.05" data-tilt-max="20">
+					<div class="card-inner">
+						<h4 class="bolder-font card-title">Meme Machine</h4>
+						<p class="card-icon"><i class="fas fa-grin-squint-tears"></i></p>
+						<p class="regular-font card-p">
+							An ML algorithm that takes in a meme format and some noise and produces a complete meme.
+						<p>
+					</div>
+					
+				</div>
+			</div>
+			<br>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+				<div onclick="location.href='https://github.com/erithwik/Geographic-Analysis-Algorithm'" class="text-center text-white second-card card" data-tilt data-tilt-reverse="true" data-tilt-glare="true" data-tilt-maxglare="0.001" data-tilt-scale="1.05" data-tilt-max="20">
+					<div class="card-inner">
+						<h4 class="bolder-font card-title">Using Machine Learning to Automate Geographic Object Analysis and Segmentation</h4>
+						<p class="card-icon"><i class="fas fa-globe"></i></p>
+						<p class="regular-font card-p">
+							An ML algorithm that segments and analyzes buildings from aerial images.
+						<p>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+				<div onclick="location.href='https://github.com/erithwik/Stock-Betrs-MVP'" class="text-center text-white third-card card" data-tilt data-tilt-reverse="true" data-tilt-glare="true" data-tilt-maxglare=".2" data-tilt-scale="1.05" data-tilt-max="20">
+					<div class="card-inner">
+						<h4 class="bolder-font card-title">Stock Betr</h4>
+						<p class="card-icon"><i class="fab fa-ethereum"></i></p>
+						<p class="regular-font card-p">
+							A decentralized application that allows anonymous users to safely bet on the appreciation of stocks.
+						<p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center" data-aos="zoom-in-up">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+				<div onclick="location.href='https://github.com/erithwik/depth_CNN'" class="text-center text-white fourth-card card" data-tilt data-tilt-reverse="true" data-tilt-glare="true" data-tilt-maxglare=".2" data-tilt-scale="1.05" data-tilt-max="20">
+					<div class="card-inner">
+						<h4 class="bolder-font card-title">Machine Learning based Steroscopic Depth Estimation</h4>
+						<p class="card-icon"><i class="fas fa-glasses"></i></p>
+						<p class="regular-font card-p">
+							An ML algorithm that takes in stereoscopic images and produces a depth map.
+						<p>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+				<div onclick="location.href='https://github.com/erithwik/Simple-Neural-Evolution'" class="text-center text-white fifth-card card" data-tilt data-tilt-reverse="true" data-tilt-glare="true" data-tilt-maxglare=".2" data-tilt-scale="1.05" data-tilt-max="20">
+					<div class="card-inner">
+						<h4 class="bolder-font card-title">Neural Evolution</h4>
+						<p class="card-icon"><i class="fas fa-brain"></i></p>
+						<p class="regular-font card-p">
+							A combination of neural networks and evolutionary algorithms to create an environment with adversarial agents.
+						<p>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+				<div class="text-center text-white sixth-card card" data-tilt data-tilt-reverse="true" data-tilt-glare="true" data-tilt-maxglare=".2" data-tilt-scale="1.05" data-tilt-max="20">
+					<div class="card-inner">
+						<h4 class="bolder-font card-title">Scheme Interpreter</h4>
+						<p class="card-icon">&#955;</p>
+						<p class="regular-font card-p">
+							A program that is written in python which can interpret scheme code.
+						<p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<br>
+	<hr style="margin-left: 50vh; margin-right: 50vh">
+	<br>
+
+	<!-- Skill section -->
+	<h1 class="bolder-font purple-color text-center">Skills and Interests</h1>
+	<br>
+	<div class="parent-skills">
+		<div class="skills bolder-font purple-color">
+			<div class="skill-section" style="margin-bottom: 2em;" data-aos="zoom-in-bottom">
+				<h2 class="text-center purple-color"> < Machine Learning > </h2>
+				<button class="skills-item">Keras</button>
+				<button class="skills-item">Tensorflow</button>
+				<button class="skills-item">Data Analysis</button>
+				<button class="skills-item">Web scraping</button>
+				<button class="skills-item">Google Cloud</button>
+				<button class="skills-item">Scikit-Learn</button>
+			</div>	
+			<hr class="slanted" style="transform: skewY(7deg);">
+			<div class="skill-section" style="margin-top: 2em; margin-bottom: 2.5em;" data-aos="zoom-in-bottom">
+				<h2 class="text-center purple-color"> < Blockchain > </h2>
+				<button class="skills-item">Solidity</button>
+				<button class="skills-item">Truffle</button>
+				<button class="skills-item">Ganache</button>
+				<button class="skills-item">Web3JS</button>
+				<button class="skills-item">HTML/CSS/JS</button>
+				<button class="skills-item">Geth</button>
+			</div>
+			<hr class="slanted" style="transform: skewY(7deg);">
+			<div class="skill-section" style="margin-top: 2em; margin-bottom: 2.5em;" data-aos="zoom-in-bottom">
+				<h2 class="text-center purple-color"> < Other > </h2>
+				<button class="skills-item">Python</button>
+				<button class="skills-item">LaTeX</button>
+				<button class="skills-item">Java</button>
+				<button class="skills-item">Git</button>
+				<button class="skills-item">Photoshop</button>
+				<button class="skills-item">Bootstrap</button>
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<hr style="margin-left: 50vh; margin-right: 50vh">
+	<br>
+
+	<!-- footer -->
+	<div id="contact" class="footer regular-font">
+		<div class="row">
+			<div class="col-lg-4 col-sm-12">
+				<p class="purple-color">erithwik (at) berkeley (dot) edu</p>
+				<a href="https://github.com/erithwik"><i class="fab fa-github purple-color"></i></a>
+				<a href="https://www.linkedin.com/in/erithwik/"><i class="fab fa-linkedin-in purple-color"></i></a>
+			</div>
+			<div onclick="location.href='url'" class="col-lg-4 col-sm-12 text-center bolder-font purple-color resume-font">
+				< RESUME >
+			</div>
+			<br>
+			<div class="col-lg-4 col-sm-12 right-orient purple-color">
+				<p>Site designed by Rithwik Ediga Lakhamsani</p>
+				<p>Inspired by openai.com</p>
+			</div>
+		</div>
+		
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="tilt.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+    	AOS.init({duration: 900, easing: "ease", once: true});
+    	$("button").click(function(){
+		  var pageId = $(this).attr("data-page");
+		  $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
+		});
+  	</script>
+
+</body>
+</html>

@@ -1,0 +1,243 @@
+:root{
+    --main-font: 'Raleway', sans-serif;
+    --shadow-value: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+    --second-shadow-value: 0 3px 10px rgba(0,0,0,0.3), 0 3px 10px 0 rgba(0,0,0,0.3);
+    --gray-background:#f6f5fd;
+    --dark-gray-background: #e5f3f3;
+    --dark-gray-text-color: #5f656d;
+
+    --green-blue-gradient: linear-gradient(0deg,#2f86d7,#1cf5ba);
+    --blue-purple-gradient: linear-gradient(0deg,#571ccf,#1bb0ee);
+    --purple-blue-gradient: linear-gradient(0deg,#5a40d8,#d84add);
+    --red-dark-gradient: linear-gradient(0deg,#950047,#ff4e4a);
+    --orange-red-gradient: linear-gradient(0deg,#c71b1b,#ff8a17);
+    --yellow-orange-gradient: linear-gradient(0deg,#c74400,#f5f837);
+    --blue-green-gradient: linear-gradient(0deg,#0da382,#67e44e);
+    --black-gray-gradient: linear-gradient(0deg,#000,#424242);
+    --black-gray-2-gradient: linear-gradient(0deg,#111,#696a72);
+    --gray-white-gradient: linear-gradient(0deg,#6c6c7d,#d1d1dc);
+    --background-gradient: linear-gradient(#fff,#f6f5fd);
+    --light-blue-purple-gradient: linear-gradient(#caffff,#a83889);
+    --blue-red-gradient: linear-gradient(#3279ce,#ea444a);
+    --orange-purple-gradient: linear-gradient(#fda638,#ce5ed0);
+	--purple-dark-blue-gradient: linear-gradient(180deg, #34368c,#42175a);
+	--light-green-blue-gradient: linear-gradient(#2ddc82,#17c2e4);
+
+	--best-border-radius: 8px;
+	--red-font-color: #d83242;
+	--purple-font-color: #4c2355;
+}
+
+.regular-font {
+	font-family: var(--main-font);
+	font-weight: 300;
+}
+
+.bold-font{
+	font-family: var(--main-font);
+	font-weight: 500;
+}
+
+.bolder-font{
+	font-family: var(--main-font);
+	font-weight: 800;
+}
+
+.purple-color{
+	color: var(--purple-font-color);
+}
+
+.red-color{
+	color: var(--red-font-color);
+}
+
+/*navbar css*/
+
+.navbar-button{
+	border: 1px solid var(--purple-font-color);
+	font-size: 13px;
+	background-color: transparent;
+	color: var(--purple-font-color);
+	letter-spacing: 1px;
+	border-radius: 5px;
+}
+
+.navbar-button:hover{
+	color: white;
+	border: 1px solid white;
+	background-color: var(--purple-font-color);
+
+}
+
+.navbar{
+	background-color: var(--gray-background);
+}
+
+/*Intro CSS*/
+
+#intro{
+	padding: 80px;
+	background-image: var(--background-gradient);
+	color: var(--purple-font-color);
+}
+
+#intro-2{
+	padding: 20px;
+	background-image: var(--purple-dark-blue-gradient);
+	font-size: 20px;
+}
+
+/*About me section*/
+
+body{
+	background: var(--gray-background);
+}
+
+.about-me-header{
+	color: var(--purple-font-color);
+	background: var(--gray-background);
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
+.about-me-header-main{
+	color: var(--purple-font-color);
+	background: var(--gray-background);
+	padding-left: 2.5em;
+	padding-right: 2em;
+}
+
+.about-me-body{
+	color: var(--purple-font-color);
+	background: var(--gray-background);
+	padding-left: 5em;
+	padding-right: 2em;
+}
+
+/*button CSS*/
+
+.red-button{
+	border: 1px solid var(--red-font-color);
+	border-radius: 5px;
+	color: var(--red-font-color);
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.red-button:hover{
+	border: 1px solid black;
+	color: black;
+}
+
+/*Card CSS*/
+.cards{
+	background: var(--gray-background);
+}
+
+.card{
+	margin: 1em;
+	height: 50vh;
+	width: 40vh;
+	border-radius: var(--best-border-radius);
+	box-shadow: var(--shadow-value);
+
+}
+
+.first-card{	
+	background-image: var(--red-dark-gradient);
+}
+
+.second-card{
+	background-image: var(--blue-green-gradient);
+}
+
+.third-card{
+	background-image: var(--purple-dark-blue-gradient);
+}
+
+.fourth-card{
+	background-image: var(--green-blue-gradient);
+}
+
+.fifth-card{
+	background-image: var(--gray-white-gradient);
+}
+
+.sixth-card{
+	background-image: var(--orange-red-gradient);
+}
+
+.card-inner{
+	margin: 20px;
+	margin-top: 30px;
+}
+
+.card-title{
+	letter-spacing: 1px;
+	font-size: 15px;
+	opacity: 0.8;
+}
+
+.card-p{
+	font-size: 15px;
+	opacity: 0.8;
+}
+
+.card-icon{
+	font-size: 100px;
+	opacity: 0.8;
+}
+
+
+/*The skills section*/
+
+.parent-skills{
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+.skills{
+	display: inline-block;
+	border-radius: var(--best-border-radius);
+	border: 5px solid var(--purple-font-color);
+	width: 55vh;
+	box-shadow: var(--shadow-value);
+}
+
+.skill-section{
+	margin: 1em;
+}
+
+.skills-item{
+	color: var(--purple-font-color);
+	border: 2px solid var(--purple-font-color);
+	border-radius: var(--best-border-radius);
+	padding: 5px;
+	font-size: 20px;
+	margin: 5px;
+	background:transparent;
+	box-shadow: var(--second-shadow-value);
+}
+
+.slanted{
+	background: var(--purple-font-color);
+	height: .3em;
+}
+
+/*The footer section*/
+
+.footer{
+	margin-left: 5em;
+	margin-right: 5em;
+	margin-bottom: 2em;
+}
+
+.right-orient{
+	text-align: right;
+}
+
+.resume-font{
+	font-size: 25px;
+	letter-spacing: 1px;
+}
