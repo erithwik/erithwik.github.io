@@ -1,3 +1,3 @@
 # Personal Website
 
-In progress...
+In continued development.

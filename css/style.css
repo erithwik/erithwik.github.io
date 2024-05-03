@@ -930,3 +930,17 @@ footer p a:hover {
 a:hover img {
     filter: grayscale(50%);
   }
+
+.highlight-container {
+    position: relative;
+    display: inline-block;
+}
+.highlight-svg {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 135%;  /* Adjust based on the actual size of your text */
+    height: auto;
+    z-index: -1;
+}
