@@ -1,0 +1,180 @@
+
+<!-- About -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+<head id="top">
+    <meta charset="UTF-8">
+    <title>About · Rithwik Ediga Lakhamsani</title>
+    <meta name="Description" content="Rithwik's home page.">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- Javascript -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+        /* Smooth Scrolling */
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 500, function(){
+                    window.location.hash = hash;
+                });
+            }
+          });
+        });
+    </script>
+</head>
+
+<body class="grid">
+    <!-- Header -->
+    <header class="c12">
+        <!-- Nav -->
+        <div class="hero">
+            <div class="header">
+                <h3 class="medium content-web">Welcome!</h3>
+                <nav class="nav">
+                    <h5 class="option selected">About</h5>
+                    <h5 class="option"><a href="#experience" aria-label="Rithwik's experience">Experience</a></h5>
+                    <h5 class="option"><a href="#contact" aria-label="Rithwik's contact">Contact Me!</a></h5>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    
+    <div class="c12 summary main">
+        <div>
+            <div class="title">
+                <h1 class="content-web emoji">👋🏽</h1>
+                <div>
+                    <h1 class="content-mobile">👋🏽</h1>
+                    <h1>Hi, I am Ricky!</h1>
+                    <h1 class="medium">It's nice to meet you.</h1>
+                </div>
+            </div>
+            <br>
+            <br>
+            <p>
+                I'm currently a software engineer at Databricks and I'm interested in Machine Learning. I enjoy rock climbing 🧗, playing chess ♟️, and snowboarding 🏂. Scroll down to view my experience and contact information.
+            </p>
+        </div>
+        <img alt="picture of ricky" src="rithwik.jpeg" class="avi">
+    </div>
+    <div class="c12" style="text-align: center;">
+        <div class="c6" style="text-align: center; height: 100px; justify-content: center;">
+            <img src="svg/break.svg" alt="break1" height="100%"/>
+        </div>
+    </div>
+    <div class="c12" id="experience">
+        <div>
+            <h3>Education</h3>
+            <p>
+                I graduated from the University of California, Berkeley with a Bachelor's degree in Electrical Engineering and Computer Science. I learned some pretty interesting things at Berkeley AI Research Lab and Blockchain at Berkeley (and also had some fun times as an Accel Scholar and as part of HKN). 
+            </p>
+        </div>
+        <br>
+        <br>
+        <div>
+            <h3>Experience</h3>
+            <p>
+                I am currently working at Databricks, but here's a quick summary of my past experiences:
+            </p>
+        </div>
+    </div>
+    <div class="c12 grid" style="text-align: center;">
+        <div class="c6" style="text-align: center;">
+            <br>
+            <br>
+            <div class="container">
+            <h4>Databricks - Mid-Level Software Engineer (L4)</h4>
+            <img class="dynamic-width-image" src = "svg/databricks.svg" alt="databricks"/>
+            </div>
+            <p>
+                Currently working on LLMs, Recommender Systems, and ML Infra as part of the ML Training team at Databricks. I've been working here full-time since <b>2022</b> (but I also interned here in <b>2021</b>).
+            </p>
+            <br>
+        </div>
+        <div class="c6" style="text-align: center; height: 100px; justify-content: center;">
+            <img src="svg/arrow1.svg" alt="arrow1" height="100%"/>
+        </div>
+        <div class="c6" style="text-align: center;">
+            <br>
+            <div class="container">
+            <h4>Pinterest - Machine Learning Intern</h4>
+            <img class="dynamic-width-image" src = "svg/pinterest.svg" alt="pinterest"/>
+            </div>
+            <p>
+                Worked on generative inpainting models on the Pinterest Labs team in <b>2021</b>.
+            </p>
+            <br>
+        </div>
+        <div class="c6" style="text-align: center; height: 100px; justify-content: center;">
+            <img src="svg/arrow2.svg" alt="arrow2" height="100%"/>
+        </div>
+        <div class="c6" style="text-align: center;">
+            <br>
+            <div class="container">
+            <h4>Two Sigma - Software Engineer Intern</h4>
+            <img class="dynamic-width-image" src = "svg/twosigma.svg" alt="twosigma"/>
+            </div>
+            <p>
+                Worked on automating infrastructure creation as part of the Cloud Enablement Team in <b>2021</b>.
+            </p>
+            <br>
+        </div>
+        <div class="c6" style="text-align: center; height: 100px; justify-content: center;">
+            <img src="svg/arrow3.svg" alt="arrow3" height="100%"/>
+        </div>
+        <div class="c6" style="text-align: center;">
+            <br>
+            <div class="container">
+            <h4>Cloudera - Software Engineer Intern</h4>
+            <img class="dynamic-width-image" src = "svg/cloudera.svg" alt="cloudera"/>
+            </div>
+            <p>
+               Worked on co-creating the core API for Cloudera's ML platform in <b>2020</b>.
+            </p>
+            <br>
+        </div>
+        <div class="c6" style="text-align: center; height: 100px; justify-content: center;">
+            <img src="svg/arrow4.svg" alt="arrow4" height="100%"/>
+        </div>
+        <div class="c6" style="text-align: center;">
+            <br>
+            <div class="container">
+            <h4>Amazon - Software Engineer Intern</h4>
+            <img class="dynamic-width-image" src = "svg/amazon.svg" alt="amazon"/>
+            </div>
+            <p>
+                Worked on scaling geographic data ingestion as part of the Last Mile Team in <b>2020</b>.
+            </p>
+        </div>
+        <div class="c6" style="text-align: center; height: 100px; justify-content: center;">
+            <img src="svg/break.svg" alt="break" height="100%"/>
+        </div>
+        <div class="c6" style="text-align: center;" id="contact">
+            <h4>Contact me at</h4>
+            <br>
+            <span>
+                <a href="https://www.linkedin.com/in/erithwik"><img src="svg/linkedin.svg" alt="linkedin" height="30%">  </a>
+                ‎ ‎ ‎ 
+                <a href="https://www.github.com/erithwik"><img src="svg/github.svg" alt="github" height="30%">   </a>
+                ‎ ‎ ‎ 
+                <a href="mailto:ricky.ediga@gmail.com?subject=Hey!" target="_blank" rel="noopener"><img src="svg/email.svg" alt="email" height="30%"></a>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
+<!-- All doodles are from: "https://www.svgbackgrounds.com/elements/svg-geometric-doodles/" or "https://www.svgbackgrounds.com/elements/svg-arrow-doodles/" or "https://www.svgbackgrounds.com/elements/underline-doodles/" -->
